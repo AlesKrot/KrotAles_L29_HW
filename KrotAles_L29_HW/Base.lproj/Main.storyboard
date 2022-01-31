@@ -1,24 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KrotAles_L29_HW" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2e-Kx-T8F">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ET6-3E-aO3">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Click to select study group"/>
+                                        <connections>
+                                            <action selector="onButtonContainerViewDropDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g4Y-mi-Cbp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstItem="ET6-3E-aO3" firstAttribute="leading" secondItem="L2e-Kx-T8F" secondAttribute="leading" id="5H6-2P-gah"/>
+                                    <constraint firstItem="ET6-3E-aO3" firstAttribute="top" secondItem="L2e-Kx-T8F" secondAttribute="top" id="a0j-4A-ftd"/>
+                                    <constraint firstAttribute="trailing" secondItem="ET6-3E-aO3" secondAttribute="trailing" id="fhP-r4-GXf"/>
+                                    <constraint firstAttribute="bottom" secondItem="ET6-3E-aO3" secondAttribute="bottom" id="gqw-Ux-hMk"/>
+                                    <constraint firstAttribute="height" constant="50" id="r6L-0Z-vKT"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="1FN-8A-39T">
+                                <rect key="frame" x="0.0" y="119" width="414" height="777"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRk-t6-EQX">
+                                <rect key="frame" x="207" y="109" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="L2e-Kx-T8F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7ag-qM-wDQ"/>
+                            <constraint firstItem="L2e-Kx-T8F" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DXL-h5-gmZ"/>
+                            <constraint firstItem="1FN-8A-39T" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HK2-Hr-aLW"/>
+                            <constraint firstItem="1FN-8A-39T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="K9Y-dt-WAU"/>
+                            <constraint firstItem="ZRk-t6-EQX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pJr-iH-JbB"/>
+                            <constraint firstItem="L2e-Kx-T8F" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pha-8q-cEy"/>
+                            <constraint firstItem="1FN-8A-39T" firstAttribute="top" secondItem="ZRk-t6-EQX" secondAttribute="bottom" constant="10" id="sZN-au-BAr"/>
+                            <constraint firstItem="ZRk-t6-EQX" firstAttribute="top" secondItem="L2e-Kx-T8F" secondAttribute="bottom" constant="15" id="u8c-pQ-62q"/>
+                            <constraint firstAttribute="bottom" secondItem="1FN-8A-39T" secondAttribute="bottom" id="zAC-lp-Pvj"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="containerViewDropDown" destination="L2e-Kx-T8F" id="6gx-um-FBZ"/>
+                        <outlet property="studentGroupLabel" destination="ZRk-t6-EQX" id="mnd-cn-s48"/>
+                        <outlet property="studentsTableView" destination="1FN-8A-39T" id="DiU-ZX-BCa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="70.982142857142847"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
