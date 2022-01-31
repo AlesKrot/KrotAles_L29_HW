@@ -30,6 +30,34 @@
 			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
 			remoteInfo = DropDown;
 		};
+		E1291B6127A824D8007E0EF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1291B5D27A824D8007E0EF3 /* GoodTools.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1CD687427A81932005F2D3B;
+			remoteInfo = GoodTools;
+		};
+		E1291B6727A824E3007E0EF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1291B6327A824E3007E0EF3 /* GoodTools.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1CD687427A81932005F2D3B;
+			remoteInfo = GoodTools;
+		};
+		E1291B6D27A824EC007E0EF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1291B6927A824EC007E0EF3 /* GoodTools.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1CD687427A81932005F2D3B;
+			remoteInfo = GoodTools;
+		};
+		E1291B7327A824FD007E0EF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1291B6F27A824FD007E0EF3 /* GoodTools.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1CD687427A81932005F2D3B;
+			remoteInfo = GoodTools;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -50,12 +78,16 @@
 		9782AECCEF7654A613811B437C51E867 /* Pods-KrotAles_L29_HW-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KrotAles_L29_HW-frameworks.sh"; sourceTree = "<group>"; };
 		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
 		ABC3D8B6501084C9E0C7031088819A99 /* Pods-KrotAles_L29_HW-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KrotAles_L29_HW-Info.plist"; sourceTree = "<group>"; };
 		AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
 		DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
 		DD1C016858DBA056509F47F59D8A6545 /* Pods-KrotAles_L29_HW-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KrotAles_L29_HW-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1291B5D27A824D8007E0EF3 /* GoodTools.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GoodTools.xcodeproj; path = ../GoodTools/GoodTools.xcodeproj; sourceTree = "<group>"; };
+		E1291B6327A824E3007E0EF3 /* GoodTools.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GoodTools.xcodeproj; path = ../GoodTools/GoodTools.xcodeproj; sourceTree = "<group>"; };
+		E1291B6927A824EC007E0EF3 /* GoodTools.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GoodTools.xcodeproj; path = ../GoodTools/GoodTools.xcodeproj; sourceTree = "<group>"; };
+		E1291B6F27A824FD007E0EF3 /* GoodTools.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GoodTools.xcodeproj; path = ../GoodTools/GoodTools.xcodeproj; sourceTree = "<group>"; };
 		E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
 		EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
 		F7EF76E1A3F882BFBD62055A966B2360 /* Pods-KrotAles_L29_HW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KrotAles_L29_HW.modulemap"; sourceTree = "<group>"; };
@@ -117,7 +149,6 @@
 				C59647B6F3C67ED72D999C113D892AF0 /* Resources */,
 				03D114B328A63C934E528549C2DCFE8D /* Support Files */,
 			);
-			name = DropDown;
 			path = DropDown;
 			sourceTree = "<group>";
 		};
@@ -165,6 +196,10 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				E1291B5D27A824D8007E0EF3 /* GoodTools.xcodeproj */,
+				E1291B6327A824E3007E0EF3 /* GoodTools.xcodeproj */,
+				E1291B6927A824EC007E0EF3 /* GoodTools.xcodeproj */,
+				E1291B6F27A824FD007E0EF3 /* GoodTools.xcodeproj */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */,
@@ -179,6 +214,38 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1291B5E27A824D8007E0EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1291B6227A824D8007E0EF3 /* GoodTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1291B6427A824E3007E0EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1291B6827A824E3007E0EF3 /* GoodTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1291B6A27A824EC007E0EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1291B6E27A824EC007E0EF3 /* GoodTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1291B7027A824FD007E0EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1291B7427A824FD007E0EF3 /* GoodTools.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E7EEB948B72B33C0E02300BB9A404964 /* Products */ = {
@@ -269,6 +336,24 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = E7EEB948B72B33C0E02300BB9A404964 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E1291B6427A824E3007E0EF3 /* Products */;
+					ProjectRef = E1291B6327A824E3007E0EF3 /* GoodTools.xcodeproj */;
+				},
+				{
+					ProductGroup = E1291B7027A824FD007E0EF3 /* Products */;
+					ProjectRef = E1291B6F27A824FD007E0EF3 /* GoodTools.xcodeproj */;
+				},
+				{
+					ProductGroup = E1291B6A27A824EC007E0EF3 /* Products */;
+					ProjectRef = E1291B6927A824EC007E0EF3 /* GoodTools.xcodeproj */;
+				},
+				{
+					ProductGroup = E1291B5E27A824D8007E0EF3 /* Products */;
+					ProjectRef = E1291B5D27A824D8007E0EF3 /* GoodTools.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
@@ -276,6 +361,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E1291B6227A824D8007E0EF3 /* GoodTools.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoodTools.framework;
+			remoteRef = E1291B6127A824D8007E0EF3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1291B6827A824E3007E0EF3 /* GoodTools.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoodTools.framework;
+			remoteRef = E1291B6727A824E3007E0EF3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1291B6E27A824EC007E0EF3 /* GoodTools.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoodTools.framework;
+			remoteRef = E1291B6D27A824EC007E0EF3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1291B7427A824FD007E0EF3 /* GoodTools.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoodTools.framework;
+			remoteRef = E1291B7327A824FD007E0EF3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		87FC59B75437323478951BCDDBE6E2E4 /* Resources */ = {

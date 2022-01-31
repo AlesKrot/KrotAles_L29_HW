@@ -7,6 +7,7 @@
 
 import UIKit
 import DropDown
+import GoodTools
 
 class ViewController: UIViewController {
     @IBOutlet weak var containerViewDropDown: UIView!
@@ -36,18 +37,22 @@ class ViewController: UIViewController {
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
             switch item {
             case "iOS-online 9":
-                tempStudentGroup = studentGroupFirst
+                self.tempStudentGroup = studentGroupFirst
             case "iOS-online 10":
-                tempStudentGroup = studentGroupSecond
+                self.tempStudentGroup = studentGroupSecond
             case "iOS-online 11":
-                tempStudentGroup = studentGroupThird
+                self.tempStudentGroup = studentGroupThird
             default:
                 print("I don't have a student group")
             }
             print("Selected item: \(item) at index: \(index)")
-            studentGroupLabel.text = item
-            studentsTableView.reloadData()
+            self.studentGroupLabel.text = item
+            self.studentsTableView.reloadData()
         }
+        //TEST. Task 4.
+        let array = [1, 3, 10, 21]
+        let index = array.lift(index: 2)
+        print(index!)
     }
 
     @IBAction func onButtonContainerViewDropDown(_ sender: UIButton) {

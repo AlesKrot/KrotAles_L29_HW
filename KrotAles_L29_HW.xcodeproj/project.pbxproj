@@ -16,6 +16,19 @@
 		E12A2E4827A4B11F00716527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12A2E4627A4B11F00716527 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E1AF854F27A8273D00BFF59C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		21B97B3CDB3B5B0D1487579D /* Pods_KrotAles_L29_HW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KrotAles_L29_HW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		338111E542BC657B1DCC9662 /* Pods-KrotAles_L29_HW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KrotAles_L29_HW.debug.xcconfig"; path = "Target Support Files/Pods-KrotAles_L29_HW/Pods-KrotAles_L29_HW.debug.xcconfig"; sourceTree = "<group>"; };
@@ -28,6 +41,7 @@
 		E12A2E4427A4B11F00716527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E12A2E4727A4B11F00716527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E12A2E4927A4B11F00716527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AF854327A8258000BFF59C /* GoodTools.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GoodTools.xcodeproj; path = GoodTools/GoodTools.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,13 @@
 				338111E542BC657B1DCC9662 /* Pods-KrotAles_L29_HW.debug.xcconfig */,
 				4243D62E7AEA4F30DF8BBEEA /* Pods-KrotAles_L29_HW.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		E12A2E2F27A4B11D00716527 = {
 			isa = PBXGroup;
 			children = (
+				E1AF854327A8258000BFF59C /* GoodTools.xcodeproj */,
 				E12A2E3A27A4B11D00716527 /* KrotAles_L29_HW */,
 				E12A2E3927A4B11D00716527 /* Products */,
 				A9823C6E1404F1A2E1AD1761 /* Pods */,
@@ -104,6 +118,7 @@
 				E12A2E3527A4B11D00716527 /* Frameworks */,
 				E12A2E3627A4B11D00716527 /* Resources */,
 				8307BE3BCF0F0376C9918716 /* [CP] Embed Pods Frameworks */,
+				E1AF854F27A8273D00BFF59C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
